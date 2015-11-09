@@ -524,8 +524,8 @@ section.jumbotron {
 
 @media (min-width: 768px) {
 	section.jumbotron {
-		height: 100vh;
-	    max-height: calc(640px - 50px);
+		/*height: 100vh;
+	  max-height: calc(640px - 50px);*/
 		padding-top: 10%;
 		padding-bottom: 6%;
 	}
@@ -577,6 +577,8 @@ section.jumbotron>p {
     margin: auto;
     color: #f5f5f5;
 		font-size: 1.2em;
+		padding-top: 15px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 768px) {
